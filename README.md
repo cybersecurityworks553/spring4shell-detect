@@ -46,7 +46,19 @@ Running via proxy to confirm -
 ![](images/ex2.png)
 
 ## References
+
+https://www.rapid7.com/blog/post/2022/03/30/spring4shell-zero-day-vulnerability-in-spring-framework/
+
 https://github.com/TheGejr/SpringShell/blob/master/exp.py
 
 https://twitter.com/RandoriAttack/status/1509298490106593283
 
+## Created By
+
+Arjun Anand V, Security Analyst
+
+Abhishek Ganesan, Security Analyst
+
+Ridhwan Roshan, Security Analyst
+
+Cybersecurityworks
