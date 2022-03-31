@@ -14,7 +14,7 @@ usage: detect.py [-h] [--url TARGET] [--file TARGETS]
 optional arguments:
   -h, --help   show this help message and exit
   --file FILE  File containing Form Endpoints
-  --url URL    target Form Endpoints
+  --url URL    target Form Endpoint
 ```
 
 ## Example: 1
@@ -31,11 +31,15 @@ python3 detect.py --file ips.txt
 
 ## Sample Testing
 We have a Sample Spring Application set up -
+![](images/ex1.png)
 
 Running the script against it -
 ```
 python3 detect.py --url http://192.168.0.1/greeting
 ```
 Output -
+![](images/ex3.png)
 
+Running via proxy to confirm -
+![](images/ex2.png)
 
