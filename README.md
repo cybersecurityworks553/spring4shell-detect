@@ -3,7 +3,7 @@ Scanner to detect the Spring4Shell vulnerability on input URLs
 
 ## Prerequisite's
 - python3
-- python3 -m pip install -r Requirements.txt
+- python3 -m pip install -r requirements.txt
 
 ## Usage
 python3 detect.py --help
