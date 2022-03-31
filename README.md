@@ -1,6 +1,8 @@
 # Spring4Shell Detection Script
 Scanner to detect the Spring4Shell vulnerability on input URLs
 
+***Note:*** Detection Script has been tested on applications deployed using Apache Tomcat Server
+
 ## Prerequisite's
 - python3
 - python3 -m pip install -r requirements.txt
