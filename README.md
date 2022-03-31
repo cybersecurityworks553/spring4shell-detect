@@ -45,3 +45,7 @@ Output -
 Running via proxy to confirm -
 ![](images/ex2.png)
 
+## References
+https://github.com/TheGejr/SpringShell/blob/master/exp.py
+https://twitter.com/RandoriAttack/status/1509298490106593283
+
