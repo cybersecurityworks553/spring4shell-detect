@@ -11,12 +11,16 @@ Scanner to detect the Spring4Shell vulnerability on input URLs
 python3 detect.py --help
 
 ```
-usage: detect.py [-h] [--url TARGET] [--file TARGETS]
+usage: detect.py [-h] [--file FILE] --url URL [--debug] [--get] [--post] [--ver]
 
-optional arguments:
+options:
   -h, --help   show this help message and exit
   --file FILE  File containing Form Endpoints
-  --url URL    target Form Endpoint
+  --url URL    target Form Endpoints
+  --debug      Print errors
+  --get        Use Get Method
+  --post       Use Post Method
+  --ver        Perform Version Detection
 ```
 
 ## Example: 1
@@ -29,6 +33,18 @@ python3 detect.py --url http://192.168.0.1/greeting
 Run the script for Multiple URLs by providing text file with ips to detect Spring4Shell Vulnerability
 ```
 python3 detect.py --file ips.txt
+```
+
+## Example: 3
+Run the script for single URL to detect Spring4Shell Vulnerability along with version detection
+```
+python3 detect.py --url http://192.168.0.1/greeting --ver
+```
+
+## Example: 4
+Run the script for single URL to detect Spring4Shell Vulnerability, mentioning the type of request
+```
+python3 detect.py --url http://192.168.0.1/greeting --get
 ```
 
 ## Sample Testing
