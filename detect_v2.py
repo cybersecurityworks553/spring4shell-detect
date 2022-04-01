@@ -72,7 +72,7 @@ def main():
     parser = argparse.ArgumentParser(description='Spring-Core Rce.')
     parser.add_argument('--file',help='File containing Form Endpoints',required=False)
     parser.add_argument('--url',help='target Form Endpoints',required=True)
-    parser.add_argument('--debug',help='Print errors',action="store_true",required=False)
+    parser.add_argument('-d','--debug',help='Print errors',action="store_true",required=False)
     parser.add_argument('--get',help='Use Get Method',action="store_true",required=False)
     parser.add_argument('--post',help='Use Post Method',action="store_true",required=False)
     parser.add_argument('--ver',help='Perform Version Detection',action="store_true",required=False)
